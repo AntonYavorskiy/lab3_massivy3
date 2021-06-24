@@ -19,7 +19,7 @@ namespace lab3_mas3
             var len = int.Parse(Console.ReadLine());
 
             var array = new int[len];
-            int max = -1;
+            
             int index = -1;
 
             for (int i = 0; i < array.Length; i++)
@@ -30,7 +30,7 @@ namespace lab3_mas3
 
     
             
-           
+           int max = array[0];
             for (int i = 0; i < array.Length; i++)
 
                 if (max <= array[i])
